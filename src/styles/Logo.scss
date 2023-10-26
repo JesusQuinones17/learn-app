@@ -1,0 +1,27 @@
+.logo-container {
+    position: absolute; 
+    top: 8px; 
+    left: 15px; 
+    width: 131px; 
+    height: 48px; 
+  }
+
+  .logo-image {
+    position: absolute; 
+    top: 7px; 
+    left: 0px; 
+    width: 45px; 
+    height: 34px; 
+    border-radius: 0px;
+  }
+
+.logo-text {
+    position: absolute; 
+    top: 0px; 
+    left: 45px; 
+    font-family: sans-serif; /* Heading */
+    font-size: 32px; 
+    font-weight: 700; 
+    line-height: 48px; 
+    color: #171A1FFF; /* neutral-900 */
+}
