@@ -14,7 +14,6 @@ function Logo() {
         />
         <figcaption className='logo-text'>learn</figcaption>
       </figure>
-      
     </div>
   )
 }
