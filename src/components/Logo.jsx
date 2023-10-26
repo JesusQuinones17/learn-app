@@ -10,7 +10,6 @@ function Logo() {
           className='logo-image' 
           src={LogoImage}
           alt='Logo'
-          width={50}
         />
         <figcaption className='logo-text'>learn</figcaption>
       </figure>
