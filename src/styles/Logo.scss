@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 .logo-container {
     position: absolute; 
     top: 8px; 
@@ -19,7 +21,7 @@
     position: absolute; 
     top: 0px; 
     left: 45px; 
-    font-family: sans-serif; /* Heading */
+    font-family: Montserrat, sans-serif; /* Heading */
     font-size: 32px; 
     font-weight: 700; 
     line-height: 48px; 
