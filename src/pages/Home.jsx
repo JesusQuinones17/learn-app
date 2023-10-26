@@ -1,13 +1,13 @@
-import Header from '../components/Header'
+import Header from "../components/Header";
 
-import '../styles/Home.scss'
+import "../styles/Home.scss";
 
 function Home() {
   return (
     <article>
-        <Header/>
+      <Header />
     </article>
-  )
+  );
 }
 
-export default Home
+export default Home;
