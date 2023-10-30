@@ -5,12 +5,9 @@ import Login from "./pages/Login";
 import Account from "./pages/Account";
 import Training from "./pages/Training";
 import Join from "./pages/Join";
+import PageNotFound from "./components/PageNotFound";
 
 import "./App.css";
-
-export function NotFound() {
-  return <h1>Page not found</h1>;
-}
 
 function App() {
   return (
@@ -22,7 +19,7 @@ function App() {
           <Route path="/account" element={<Account />} />
           <Route path="/training" element={<Training />} />
           <Route path="/join" element={<Join />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
     </main>
