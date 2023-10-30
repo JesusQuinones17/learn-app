@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import Logo from "../components/Logo";
+import Button from "../components/Button";
 
 import "../styles/Header.scss";
 import React from "react";
 
 function Header() {
+  const navigate = useNavigate();
   return (
     <header>
       <Logo />
@@ -20,7 +22,18 @@ function Header() {
           Features
         </Link>
       </nav>
-      <div></div>
+      <div className="header-buttons-container">
+        <Button
+          className="header-sign-in-button"
+          buttonText="Sign in"
+          onClick={() => navigate("/registration")}
+        />
+        <Button
+          className="header-join-us-button"
+          buttonText="Join us"
+          onClick={() => navigate("/join")}
+        />
+      </div>
     </header>
   );
 }
