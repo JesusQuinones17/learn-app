@@ -25,13 +25,13 @@ function Header() {
       <div className="header-buttons-container">
         <Button
           className="header-sign-in-button"
-          buttonText="Sign in"
-          onClick={() => navigate("/registration")}
+          buttonText="Join us"
+          onClick={() => navigate("/join")}
         />
         <Button
           className="header-join-us-button"
-          buttonText="Join us"
-          onClick={() => navigate("/join")}
+          buttonText="Sign in"
+          onClick={() => navigate("/registration")}
         />
       </div>
     </header>
