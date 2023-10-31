@@ -1,0 +1,30 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 450px;
+    margin-top: 80px;
+}
+
+.login-title {
+    font-family: Montserrat; /* Heading */
+    font-size: 32px; 
+    line-height: 48px; 
+    color: #171A1FFF; /* neutral-900 */
+}
+
+.login-text { 
+    font-family: Montserrat; /* Heading */
+    font-size: 20px;  
+    line-height: 30px; 
+    color: #565E6CFF; /* neutral-600 */
+}
+
+.login-text {
+    font-size: 16px; 
+  font-weight: 700; 
+  line-height: 30px; 
+}

@@ -2,6 +2,61 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Poppins; /* Body */
     align-items: center;
-    margin: 10rem;
+    margin: 60px;
 }
+
+.form-inputs-container {
+    margin: auto;
+    text-align: left;
+}
+
+.form-login-label {
+    font-size: 16px; 
+    font-weight: 700; 
+    line-height: 20px;
+    opacity: 1;
+}
+
+.form-login-input {
+    width: 335px;
+    height: 44px;
+    font-size: 16px; 
+    line-height: 26px; 
+    margin-bottom: 5px;
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 6px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+}
+
+/* Button */
+.form-login-button {
+    width: 335px; 
+    height: 44px; 
+    padding: 0 16px; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 26px;
+    margin-top: 1rem;
+    color: #FFFFFFFF; /* white */
+    background: #6355D8FF; /* primary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-m */
+  }
+  /* Hover */
+  .form-login-button:hover {
+    color: #FFFFFFFF; /* white */
+    background: #4D3ED3FF; /* primary-550 */
+  }
+  /* Pressed */
+  .form-login-button:hover:active {
+    color: #FFFFFFFF; /* white */
+    background: #3D2DC7FF; /* primary-600 */
+  }
+  /* Disabled */
+  .form-login-button:disabled {
+    opacity: 0.4; 
+  }
