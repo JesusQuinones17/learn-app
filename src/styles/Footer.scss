@@ -14,6 +14,8 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
 }
 
 ul {
@@ -22,7 +24,7 @@ ul {
 }
 
 .footer-container-col {
-    width: 20%;
+    width: 220px;
     padding: 50px 15px;
     font-size: 14px; 
     font-weight: 400; 
@@ -36,6 +38,7 @@ a {
 
 .footer-container-col:first-child {
 	width: 10%;
+	
 }
 
 .footer-container-col h4 {
