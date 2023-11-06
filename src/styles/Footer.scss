@@ -20,7 +20,6 @@
 
 ul {
 	list-style: none;
-	padding: 0;
 }
 
 .footer-container-col {
@@ -38,10 +37,10 @@ a {
 
 .footer-container-col:first-child {
 	width: 10%;
-	
 }
 
 .footer-container-col h4 {
+	width: 250px;
 	font-family: Montserrat; /* Heading */
     font-size: 20px; 
     font-weight: 700; 
@@ -53,7 +52,11 @@ a {
 	color: #6355D8FF; /* primary-500 */
 }
 
-.footer-container-button {
+.footer-container-form {
+	align-self: center
+}
+
+.footer-form-container-button {
 	font-size: 14px; 
 	font-weight: 400; 
 	line-height: 22px; 
@@ -67,5 +70,12 @@ a {
 /*responsive*/
 
 
-
-
+@media screen and (max-width: 600px) {
+	.footer-container {
+		flex-direction: column;
+	}
+	.footer-container-col {
+		width: 220px;
+		padding: 10px 15px;
+	}
+}

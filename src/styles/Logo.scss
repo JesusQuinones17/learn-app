@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 .logo-container {
-    position: absolute; 
-    top: 8px; 
-    left: 15px; 
-    width: 131px; 
-    height: 48px; 
-  }
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  box-sizing: border-box;
+}
 
-  .logo-image {
-    position: absolute; 
-    top: 7px; 
-    left: 0px; 
-    width: 45px; 
-    height: 34px; 
-    border-radius: 0px;
-  }
+figure {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.logo-image {
+  width: 45px; 
+  height: 34px; 
+  border-radius: 0px;
+  align-self: center;
+}
 
 .logo-text {
-    position: absolute; 
-    top: 0px; 
-    left: 45px; 
-    font-family: Montserrat, sans-serif; /* Heading */
-    font-size: 32px; 
-    font-weight: 700; 
-    line-height: 48px; 
-    color: #171A1FFF; /* neutral-900 */
+  font-family: Montserrat, sans-serif; /* Heading */
+  font-size: 32px; 
+  font-weight: 700; 
+  line-height: 48px; 
+  color: #171A1FFF; /* neutral-900 */
 }

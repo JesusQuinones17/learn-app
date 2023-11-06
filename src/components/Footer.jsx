@@ -47,13 +47,14 @@ function Footer() {
         </div>
         <div className="footer-container-col">
           <h4>Subscribe to our newsletter</h4>
-          <div className="footer-col">
+          <div className="footer-form-container">
             <form>
               <label htmlFor="newsletter">
+                For product announcements and exclusive insights
                 <input id="newsletter" type="text" />
               </label>
               <Button
-                className={"footer-container-button"}
+                className={"footer-form-container-button"}
                 buttonText={"Subscribe"}
               />
             </form>

@@ -24,12 +24,12 @@ function Header() {
       </nav>
       <div className="header-buttons-container">
         <Button
-          className="header-join-us-button"
+          className="header-sign-in-button"
           buttonText="Sign in"
           onClick={() => navigate("/registration")}
         />
         <Button
-          className="header-sign-in-button"
+          className="header-join-us-button"
           buttonText="Join us"
           onClick={() => navigate("/join")}
         />

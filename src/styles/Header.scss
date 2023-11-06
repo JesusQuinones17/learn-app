@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap');
 
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 /* Header Menu 3 */
 .header-menu {
-    position: absolute; 
-    top: 8px; 
-    left: 212px; 
-    width: 217px; 
     height: 48px; 
     display: flex; 
+    flex-direction: row;
     align-items: center; 
+    justify-content: safe;
     font-family: Poppins; /* Body */
     font-size: 14px; 
     font-weight: 400; 
     line-height: 22px; 
     opacity: 1; 
+    flex: 50%;
   }
   /* Header Menu 3 - Item */
   .header-menu .header-menu-item {
@@ -41,11 +46,17 @@
     background: #000000FF; /* transparent */
   }
 
+  .header-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 240px;
+    margin-right: 24px;
+  }
+
 /* Button 31 */
-.header-sign-in-button {
-  position: absolute; 
-  top: 14px; 
-  left: 1336px; 
+.header-join-us-button {
   width: 80px; 
   height: 36px; 
   padding: 0 12px; 
@@ -63,25 +74,22 @@
   border-radius: 6px; /* border-m */
 }
 /* Hover */
-.header-sign-in-button:hover {
+.header-join-us-button:hover {
   color: #FFFFFFFF; /* white */
   background: #4D3ED3FF; /* primary-550 */
 }
 /* Pressed */
-.header-sign-in-button:hover:active {
+.header-join-us-button:hover:active {
   color: #FFFFFFFF; /* white */
   background: #3D2DC7FF; /* primary-600 */
 }
 /* Disabled */
-.header-sign-in-button:disabled {
+.header-join-us-button:disabled {
   opacity: 0.4; 
 }
 
 /* Button 1 */
-.header-join-us-button {
-  position: absolute; 
-  top: 14px; 
-  left: 1256px; 
+.header-sign-in-button {
   height: 36px; 
   padding: 0 12px; 
   display: flex; 
@@ -98,16 +106,16 @@
   border-radius: 6px; /* border-m */
 }
 /* Hover */
-.header-join-us-button:hover {
+.header-sign-in-button:hover {
   color: #6355D8FF; /* primary-500 */
   background: #E1DFF8FF; /* primary-150 */
 }
 /* Pressed */
-.header-join-us-button:hover:active {
+.header-sign-in-button:hover:active {
   color: #6355D8FF; /* primary-500 */
   background: #CFCBF3FF; /* primary-200 */
 }
 /* Disabled */
-.header-join-us-button:disabled {
+.header-sign-in-button:disabled {
   opacity: 0.4; 
 }
