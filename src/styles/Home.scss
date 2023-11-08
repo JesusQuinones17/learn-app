@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;400&display=swap');
+
+.home {
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.home h1 {
+    font-family: Montserrat; /* Heading */
+    font-size: 56px; 
+    font-weight: 700; 
+    line-height: 78px; 
+    color: #171A1FFF; /* neutral-900 */
+}
+
+.home-container {
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center; /* Center the text horizontally using flexbox */
+    align-items: center; /* Center the text vertically using flexbox */
+    flex-direction: column;
+    width: 780px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.home .home-message {
+    font-family: Poppins; /* Body */
+    font-size: 20px; 
+    font-weight: 400; 
+    line-height: 30px; 
+    color: #9095A0FF; /* neutral-500 */
+    text-align: center;
+}
+
+.home-message {
+    padding: 5px;
+    margin: 5px;
+}
+
+.home-image {
+    display: block;
+}
+
+.home-image-video {
+    margin-bottom: 100px;
+    width: 957px;
+}
+
+.home-join-us-container {
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center; /* Center the text horizontally using flexbox */
+    align-items: center; /* Center the text vertically using flexbox */
+    flex-direction: column;
+    width: 780px;
+    margin: auto;
+    background: #FAFAFBFF; /* neutral-100 */
+    border-radius: 6px; /* border-m */
+    padding: 50px;
+}
+
+.home-join-us-title {
+    font-family: Montserrat; /* Heading */
+    font-size: 48px; 
+    font-weight: 700; 
+    line-height: 68px; 
+    color: #6355D8FF; /* primary-500 */
+}
+
+.home-join-us-message {
+    font-family: Poppins; /* Body */
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 28px; 
+    color: #171A1FFF; /* neutral-900 */
+    width: 510px;
+}
+
+.home-join-us-button {
+    font-family: Poppins; /* Body */
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 28px; 
+    color: #FFFFFFFF; /* white */
+    background: #6355D8FF; /* primary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-m */
+    height: 52px;
+    padding: 0 20px;
+}
+/* Hover */
+.home-join-us-button:hover {
+    color: #FFFFFFFF; /* white */
+    background: #4D3ED3FF; /* primary-550 */
+}
+
+/* Pressed */
+.home-join-us-button:hover:active {
+    color: #FFFFFFFF; /* white */
+    background: #3D2DC7FF; /* primary-600 */
+}
+
+.home-join-us-button:disabled {
+    opacity: 0.4;
+}
