@@ -18,8 +18,8 @@ function Header() {
         <Link to="/pricing" className="header-menu-item">
           Pricing
         </Link>
-        <Link to="/features" className="header-menu-item">
-          Features
+        <Link to="/about" className="header-menu-item">
+          About us
         </Link>
       </nav>
       <div className="header-buttons-container">

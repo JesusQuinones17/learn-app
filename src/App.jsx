@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Account from "./pages/Account";
 import Training from "./pages/Training";
 import Join from "./pages/Join";
+import About from "./pages/About";
 import PageNotFound from "./components/PageNotFound";
 
 import "./App.css";
@@ -19,6 +20,7 @@ function App() {
           <Route path="/account" element={<Account />} />
           <Route path="/training" element={<Training />} />
           <Route path="/join" element={<Join />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
