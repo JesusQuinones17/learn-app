@@ -1,0 +1,102 @@
+.about {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.about-container {
+    margin: 10px;
+}
+
+.about-title {
+    font-family: Montserrat; /* Heading */
+    font-size: 56px; 
+    font-weight: 700; 
+    line-height: 78px; 
+    color: #171A1FFF; /* neutral-900 */
+}
+
+.about-message {
+    width: 60%;
+    font-family: Poppins; /* Body */
+    font-size: 20px; 
+    font-weight: 400; 
+    line-height: 30px; 
+    color: #9095A0FF; /* neutral-500 */
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.about-main-image {
+    width: 80%;
+}
+
+.join-team {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
+}
+
+.join-team-title {
+    font-family: Montserrat; /* Heading */
+    font-size: 48px; 
+    font-weight: 700; 
+    line-height: 68px; 
+    color: #171A1FFF; /* neutral-900 */
+}
+
+.join-team-message {
+    font-family: Poppins; /* Body */
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 28px; 
+    color: #9095A0FF; /* neutral-500 */
+    margin: 0;
+}
+
+.join-team-item {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #FAFAFBFF; /* neutral-100 */
+    border-radius: 8px; /* border-l */;
+}
+
+.join-team-item:first-child {
+    background: none;
+    border-radius: 0;
+}
+
+.join-team-item-image {
+    width: 100%;
+}
+
+.join-team-item-name {
+    font-family: Montserrat; /* Heading */
+    font-size: 24px; 
+    font-weight: 700; 
+    line-height: 36px; 
+    color: #171A1FFF; /* neutral-900 */
+}
+
+.join-team-item-title {
+    font-family: Poppins; /* Body */
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 26px; 
+    color: #6355D8FF; /* primary-500 */
+}
+
+.join-team-item-desc {
+    font-family: Poppins;
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 26px; 
+    color: #424955FF; /* neutral-650 */
+    width: min-content;
+    margin: auto;
+}
