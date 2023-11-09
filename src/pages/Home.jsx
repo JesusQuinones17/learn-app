@@ -22,13 +22,11 @@ function Home() {
             for a successful tomorrow. Happy learning!
           </p>
         </article>
-        <figure className="home-image">
-          <img
-            className="home-video-image"
-            src={HomeVideoImage}
-            alt="VideoImage"
-          />
-        </figure>
+        <img
+          className="home-video-image"
+          src={HomeVideoImage}
+          alt="VideoImage"
+        />
         <article className="home-join-us-container">
           <h2 className="home-join-us-title">Join us</h2>
           <p className="home-join-us-message">

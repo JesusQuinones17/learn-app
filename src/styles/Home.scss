@@ -19,7 +19,7 @@
     justify-content: center; /* Center the text horizontally using flexbox */
     align-items: center; /* Center the text vertically using flexbox */
     flex-direction: column;
-    width: 780px;
+    width: 90%;
     margin: auto;
     margin-bottom: 100px;
 }
@@ -31,6 +31,7 @@
     line-height: 30px; 
     color: #9095A0FF; /* neutral-500 */
     text-align: center;
+    width: 100%;
 }
 
 .home-message {
@@ -42,9 +43,9 @@
     display: block;
 }
 
-.home-image-video {
+.home-video-image {
     margin-bottom: 100px;
-    width: 957px;
+    width: 90%;
 }
 
 .home-join-us-container {
@@ -53,7 +54,7 @@
     justify-content: center; /* Center the text horizontally using flexbox */
     align-items: center; /* Center the text vertically using flexbox */
     flex-direction: column;
-    width: 780px;
+    width: 80%;
     margin: auto;
     background: #FAFAFBFF; /* neutral-100 */
     border-radius: 6px; /* border-m */
