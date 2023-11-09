@@ -11,7 +11,7 @@ import "../styles/Home.scss";
 function Home() {
   const navigate = useNavigate();
   return (
-    <article>
+    <>
       <Header />
       <main className="home">
         <article className="home-container">
@@ -43,7 +43,7 @@ function Home() {
         </article>
       </main>
       <Footer />
-    </article>
+    </>
   );
 }
 
