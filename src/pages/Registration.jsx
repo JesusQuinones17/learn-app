@@ -23,7 +23,7 @@ function Registration() {
     password: "",
   });
 
-  const [isRegister, setIsRegister] = useState(true);
+  const [isRegister, setIsRegister] = useState(false);
 
   const register = () => {
     console.log(form);
