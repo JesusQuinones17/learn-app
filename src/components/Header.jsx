@@ -26,7 +26,7 @@ function Header() {
         <Button
           className="header-sign-in-button"
           buttonText="Sign in"
-          onClick={() => navigate("/registration")}
+          onClick={() => navigate("/register")}
         />
         <Button
           className="header-join-us-button"
