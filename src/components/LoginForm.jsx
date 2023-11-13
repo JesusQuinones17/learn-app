@@ -1,15 +1,41 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+import Axios from "axios";
+
 import Button from "./Button";
 
 import "../styles/LoginForm.scss";
 
+import { LOGIN_URL } from "../constants";
+
 function LoginForm() {
+  // const navigate = useNavigate();
+  const [form, setForm] = useState({
+    email: "",
+    password: "",
+  });
+
+  const login = () => {
+    Axios.post(LOGIN_URL, form).then((response) => {
+      console.log(response);
+    });
+  };
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setForm({ ...form, [name]: value });
+    console.log(form);
+  };
+
   const handleSubmmitButton = () => {
+    // console.log("hellobutton");
     handleSubmmitForm;
   };
 
   const handleSubmmitForm = (event) => {
     event.preventDefault();
+    //  console.log("helloform");
+    login();
   };
 
   return (
@@ -23,6 +49,8 @@ function LoginForm() {
             type="text"
             placeholder="Enter email"
             autoComplete="on"
+            name="email"
+            onChange={handleChange}
           />
         </label>
         <label htmlFor="password" className="form-login-label">
@@ -32,6 +60,8 @@ function LoginForm() {
             className="form-login-input"
             type="password"
             placeholder="Enter password"
+            name="password"
+            onChange={handleChange}
           />
         </label>
       </div>
